@@ -1,0 +1,42 @@
+body {
+
+    background-color: white;
+}
+.header_nav {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.header_nav  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.header_nav  ul li {
+    padding: 10px;
+    float: right;
+}
+.header_nav  ul li a {
+    padding: 6px;
+}
+
+.header_nav  ul li a:hover {
+border-bottom: 2px solid #ffffff;
+} 
+
+.header_nav  ul.nav-menu {
+    flex:1;
+    margin-left: 20px;
+}
+.Title{
+    color: red
+    
+}
